@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit" parallel="tests" thread-count="2">
+    <test name="test1">
+
+        <parameter name="browser" value="edge"></parameter>
+
+        <classes>
+            <class name="proje8._01_proje8_POM"></class>
+        </classes>
+    </test>
+    <test name="test2">
+
+        <parameter name="browser" value="chrome"></parameter>
+
+        <classes>
+            <class name="proje8._01_proje8_POM"></class>
+        </classes>
+    </test>
+
+
+</suite>
