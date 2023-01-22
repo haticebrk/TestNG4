@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+
+    <test name="test1">
+        <parameter name="aranacakKelime" value="Adobe Photoshop CS4"></parameter>
+
+
+        <classes>
+            <class name="proje7._01_Reggistrations"></class>
+        </classes>
+    </test>
+
+
+</suite>
